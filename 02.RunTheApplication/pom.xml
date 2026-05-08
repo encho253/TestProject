@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.interview</groupId>
-    <artifactId>junior-di-broken-app</artifactId>
+    <artifactId>junior-fix-app</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -16,14 +16,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <build>
+   <build>
     <plugins>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>exec-maven-plugin</artifactId>
             <version>3.1.0</version>
             <configuration>
-                <mainClass>com.interview.di.App</mainClass>
+                <mainClass>com.interview.junior.App</mainClass>
             </configuration>
         </plugin>
     </plugins>
