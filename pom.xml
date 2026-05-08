@@ -18,7 +18,7 @@
 
     <build>
         <plugins>
-            <!-- Intentionally incomplete: app cannot be run easily with mvn exec:java yet -->
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
